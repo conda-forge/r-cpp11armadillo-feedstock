@@ -1,4 +1,4 @@
-{% set version = '0.4.1' %}
+{% set version = "0.4.4" %}
 
 package:
   name: r-cpp11armadillo
@@ -8,11 +8,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cpp11armadillo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cpp11armadillo/cpp11armadillo_{{ version }}.tar.gz
-  sha256: 826b8b0bb255b454704280cca34fe3720e2dc6ff39babd700609fbad3449d043
+  sha256: 7d7aa077ba5afd1454d5681b1b938ffb72fceed1afa9f8fa65eccecf143c22ae
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -35,10 +35,7 @@ about:
   dev_url: https://github.com/pachadotdev/cpp11armadillo
   license: Apache-2.0
   license_file: LICENSE.md
-  summary: Provides function declarations and inline function definitions that facilitate communication
-    between R and the 'Armadillo' 'C++' library for linear algebra and scientific computing.
-    This implementation is detailed in Vargas Sepulveda and Schneider Malamud (2024)
-    <doi:10.48550/arXiv.2408.11074>.
+  summary: Provides function declarations and inline function definitions that facilitate communication between R and the 'Armadillo' 'C++' library for linear algebra and scientific computing. This implementation is detailed in Vargas Sepulveda and Schneider Malamud (2024) <doi:10.48550/arXiv.2408.11074>.
 
 extra:
   recipe-maintainers:
