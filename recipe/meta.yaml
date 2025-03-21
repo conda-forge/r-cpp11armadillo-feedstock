@@ -1,4 +1,4 @@
-{% set version = "0.4.4" %}
+{% set version = "0.4.6" %}
 
 package:
   name: r-cpp11armadillo
@@ -8,7 +8,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cpp11armadillo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cpp11armadillo/cpp11armadillo_{{ version }}.tar.gz
-  sha256: 7d7aa077ba5afd1454d5681b1b938ffb72fceed1afa9f8fa65eccecf143c22ae
+  sha256: c4bbe94f60e39e3f408901c268c9ab3632351c3fb970c6c008bbc156c17244c5
 
 build:
   noarch: generic
